@@ -16,11 +16,23 @@ body {
 }
 
 .wrapper {
-  background-color: #f1ded0; //#f6e9e0
+  background-color: #f1ded0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.wrapper:after {
+  background: #f6e9e0;
+  content: "";
+  width: 200vh;
+  position: fixed;
+  left: calc((100vw - 550px) / 4);
+  right: 0;
+  height: 200vh;
+  z-index: 0;
+  border-radius: 50%;
 }
 
 .app {
@@ -28,6 +40,7 @@ body {
   background-color: white;
   border-radius: 0.5em;
   overflow: hidden;
+  z-index: 1;
 }
 
 .nav {
