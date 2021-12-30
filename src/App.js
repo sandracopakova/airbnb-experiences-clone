@@ -8,10 +8,8 @@ export default function App() {
     <div className="wrapper">
       <div className="app">
         <Navbar />
-        <div className="container">
-          <Hero />
-          <Cards />
-        </div>
+        <Hero />
+        <Cards />
       </div>
     </div>
   );
