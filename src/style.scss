@@ -63,16 +63,15 @@ body {
 }
 
 .cards {
-  margin-top: calc(var(--base-gap) * 4);
   font-size: 12px;
   display: flex;
   flex-wrap: nowrap;
-  gap: 20px;
   overflow-x: auto;
+  gap: calc(var(--base-gap) * 2);
+  margin: calc(var(--base-gap) * 4) calc(var(--base-gap) * 2) 0;
 }
 
 .card {
-  margin-left: 18px;
   margin-bottom: calc(var(--base-gap) * 2);
 }
 
