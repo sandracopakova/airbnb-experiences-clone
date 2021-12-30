@@ -1,0 +1,43 @@
+:root {
+  --base-gap: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.nav {
+  background: #ffffff;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+  &__logo {
+    padding: 22px;
+  }
+}
+
+.hero__img {
+  padding: 26px calc(var(--base-gap) * 3);
+}
+
+.hero__title {
+  font-size: 0 calc(var(--base-gap) * 3);
+  font-size: 36px;
+  line-height: 110%;
+}
+
+.hero__text {
+  color: #222222;
+  line-height: 110%;
+}
+
+.container {
+  padding: 0 calc(var(--base-gap) * 3);
+}
