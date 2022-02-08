@@ -1,5 +1,5 @@
 
-# Notes App
+# AirBnB Experiences clone
 
 This is AirBnB Experiences clone.
 
