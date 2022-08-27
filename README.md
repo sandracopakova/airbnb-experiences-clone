@@ -1,7 +1,7 @@
 
-# AirBnB Experiences clone
+# Course Experiences
 
-This is AirBnB Experiences clone.
+This is my courses log.
 
 ## Install dependencies
 ```bash
@@ -15,4 +15,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Authors and acknowledgment
 
-AirBnB Experiences clone is one of the projects in the Scrimba course.
+Inspired by AirBnB Experiences clone which is one of the projects in the Scrimba course.
