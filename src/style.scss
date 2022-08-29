@@ -20,7 +20,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .wrapper:after {
@@ -38,7 +37,6 @@ body {
 .app {
   width: 550px;
   background-color: white;
-  border-radius: 0.5em;
   overflow: hidden;
   z-index: 1;
 }
@@ -58,7 +56,7 @@ body {
 }
 
 .hero__img {
-  padding: 26px calc(var(--base-gap) * 3);
+  width: 100%;
   align-self: center;
   min-width: 396px;
 }
@@ -70,7 +68,7 @@ body {
   margin-bottom: 0;
 }
 
-.hero__text {
+.hero__description {
   color: #222222;
   line-height: 110%;
 }
@@ -81,7 +79,7 @@ body {
   flex-wrap: nowrap;
   overflow-x: auto;
   gap: calc(var(--base-gap) * 2);
-  margin: calc(var(--base-gap) * 4) calc(var(--base-gap) * 2) 0;
+  margin: calc(var(--base-gap) * 1) calc(var(--base-gap) * 2) 0;
 }
 
 .card {
