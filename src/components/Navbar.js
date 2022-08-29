@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <div className="nav__logo">
-        <svg width="100" height="44" viewBox="0 0 100 44" class="css-1j8o68f">
+        <svg width="100" height="46" class="css-1j8o68f">
           <defs id="SvgjsDefs1522"></defs>
           <g id="SvgjsG1523" featurekey="symbolFeature-0" transform="matrix(1.1101347825601187,0,0,1.1101347825601187,-5.550673912800593,-32.74217495156357)" fill="#ff005d">
             <g xmlns="http://www.w3.org/2000/svg">
